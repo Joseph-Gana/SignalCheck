@@ -1,0 +1,17 @@
+
+# Dependencies and generated build output
+node_modules/
+dist/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private learner information
+devpost/learner-profile.md
+
+# Local development and AI agent tooling
+.agents/
+.claude/
+agent/
